@@ -75,4 +75,16 @@ Nest is [MIT licensed](LICENSE).
 
 ## Note
 
-This is generally a Todo app developed in Nest js including moongose and Swagger as UI
+This is generally a Todo app developed in Nest js including Nest Auth guard, moongose and Swagger as UI
+
+## Routes
+
+"/auth/login" 
+
+its used to login and get access token, in users.service.ts file I have stored dumb user on real time
+scenario it comes from DB.
+
+
+"/profile"
+
+this endpoint is used to get accesstoken profile
